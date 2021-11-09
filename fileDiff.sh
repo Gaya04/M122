@@ -1,4 +1,11 @@
 #!/bin/bash
+# Programm: fileDiff.sh
+# Aufruf: . fileDiff.sh file1.txt file2.txt
+# Demoprogramm für das Erstellen von Shell-Skripten
+# Autor: Seiya Brüllhardt
+# Version: 1.1
+# Datum: 05.10.2021
+
 #Überprüft existenz der files
 if [[ -f "$1" && -f "$2" ]]; then
   #Anzahl Zeilen des files.
